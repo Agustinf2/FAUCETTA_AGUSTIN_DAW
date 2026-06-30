@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Consulta de Clima</title>
+<link rel="stylesheet" href="clima.css">
+</head>
+<body>
+
+<h1>Consulta de Clima</h1>
+
+<div class="form-group">
+  <input type="text" id="ciudad" placeholder="Ingresá una ciudad...">
+  <button id="btnClima">Consultar</button>
+</div>
+
+<p id="estado"></p>
+
+<div id="resultado" class="oculto">
+  <p><strong>Ciudad:</strong> <span id="resCiudad"></span></p>
+  <p><strong>Temperatura:</strong> <span id="resTemp"></span> °C</p>
+  <p><strong>Velocidad del viento:</strong> <span id="resViento"></span> km/h</p>
+  <p><strong>Código de clima:</strong> <span id="resCodigo"></span></p>
+</div>
+
+<script src="clima.js"></script>
